@@ -1,0 +1,121 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+    margin-top: 74px;
+    font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.32143;
+        letter-spacing: -0.05em;
+        text-align: center;
+        color: #151515;
+        margin-bottom: 22px;
+}
+.home-span{
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+}
+.home-text{
+    text-align: center;
+}
+.home-wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+.home-text-two{
+    font-weight: 500;
+    color: #151515;
+    line-height: 2.28571;
+        letter-spacing: 0.09em;
+}
+.home-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        font-style: italic;
+        line-height: 1.42857;
+        text-align: center;
+        color: #737373;
+}
+.home-btn-wrapper{
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            height: 46px;
+  padding: 11px 14px;    
+            font-weight: 500;
+                line-height: 1.71429;
+                letter-spacing: -0.01em;
+                text-align: center;
+}
+.home-btn-one{  
+        width: 167px;
+        background: #151515;
+            color: #fff;
+            justify-content: space-between;
+}
+.home-btn-two{
+    border: 1px solid #d4d4d4;
+        width: 176px;
+            color: #151515;
+}
+.desk{
+    display: none;
+}
+.home-desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .home-title{
+    margin-top: 60px;
+    font-size: 72px;
+    margin-bottom: 50px;
+  }
+  .home-text{
+    width: 728px;
+    font-size: 24px;
+        line-height: 1.33333;
+  }
+  .mob{
+    display: none;
+  }
+.home-text-two{
+    font-size: 24px;
+  }
+  .desk{
+    display: block;
+  }
+  .home-desk{
+    display: block;
+  }
+  .home-list{
+    flex-direction: row;
+    gap: 32px;
+    width: 672px;
+    font-size: 14px;
+  }
+  .home-item-one{
+width: 241px;
+  }
+  .home-btn-wrapper{
+    margin-top: 20px;
+  }
+  .home-btn-one{
+    width: 180px;
+  }
+  .home-btn-two{
+    width: 228px;
+  }
+}
