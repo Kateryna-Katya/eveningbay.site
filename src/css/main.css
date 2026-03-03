@@ -306,4 +306,73 @@ transform: rotate(180deg);
 .think-item-text{
     line-height: 1.625;
 }
+.think-img {
+    width: 80px;
+    height: 80px;
+}
+}
+/* The Arena of Principles */
+.connect-container{
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.connect-swiper .swiper-slide{
+    border: 2px solid #d4d4d4;
+        padding: 18px;
+        width: 271px;
+        height: 271px;
+}
+.connect-swiper{
+    margin-top: 30px;
+}
+.arena-number{
+    font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33333;
+        color: #d4d4d4;
+        text-align: right;
+}
+.arena-item-title{
+    margin-top: 34px;
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.33333;
+        letter-spacing: -0.02em;
+        color: #151515;
+}
+.arena-img{
+    width: 72px;
+        height: 72px;
+        margin-left: auto;
+        margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+    .connect-swiper .swiper-ui{
+        display: none;
+    }
+    .connect-container{
+        padding-left: 144px;
+        padding-right: 144px;
+    }
+.connect-swiper{
+    width: 1152px;
+}
+.connect-swiper .swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1152px;
+    gap: 24px;
+    justify-content: center;
+}
+.connect-swiper .swiper-slide{
+width: 368px;
+    height: 368px;
+}
+.arena-item-title{
+    margin-top: 82px;
+}
 }
