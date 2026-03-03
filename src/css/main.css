@@ -119,3 +119,139 @@ width: 241px;
     width: 228px;
   }
 }
+/* A Puzzle of Ideas */
+.puzzle-container{
+    padding-left: 20px;
+
+}
+.puzzle-wrap-one{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.puzzle-title{
+    text-align: left;
+    margin-bottom: 28px;
+}
+.puzzle-text-two{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2;
+        color: #151515;
+        text-align: center;
+}
+.puzzle-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #151515;
+}
+.puzzle-swiper{
+    margin-top: 30px;
+}
+.arrow{
+    stroke: #151515;
+}
+.arrow:hover {
+    stroke: #fff;
+}
+.cards-swiper .swiper-ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.swiper-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 29px;
+    height: 29px;
+    border-radius: 999px;
+    border: 1px solid #151515;
+    background: inherit;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.swiper-btn:hover {
+    transform: translateY(-1px);
+    background: #151515;
+    border-color: #151515;
+}
+.right-arrow{
+    transition: transform 0.3s ease-in-out;
+}
+.right-arrow{
+transform: rotate(180deg);
+}
+.swiper-btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+/* pagination bullets */
+.swiper-pagination {
+    position: static !important;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* ДОБАВИЛИ puzzle-pagination */
+.connect-pagination .swiper-pagination-bullet,
+.design-pagination .swiper-pagination-bullet,
+.puzzle-pagination .swiper-pagination-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    background: rgba(21, 21, 21, 0.6) !important;
+    opacity: 1 !important;
+    border-radius: 999px;
+    margin: 0 !important;
+    transition: width .2s ease, height .2s ease, background .2s ease;
+}
+
+.connect-pagination .swiper-pagination-bullet-active,
+.design-pagination .swiper-pagination-bullet-active,
+.puzzle-pagination .swiper-pagination-bullet-active {
+    width: 6px !important;
+    height: 6px !important;
+    background: #151515 !important;
+    opacity: 1 !important;
+}
+        .puzzle-swiper .swiper {
+            height: 340px;
+        }
+@media only screen and (min-width: 1440px) {
+    .puzzle-container{
+        display: flex;
+        padding-left: 150px;
+        padding-right: 150px;
+        gap: 120px;
+    }
+    .puzzle-swiper .swiper{
+        width: 300px;
+        height: 340px;
+    }
+    .puzzle-wrap-one{
+        width: 676px;
+    }
+    .puzzle-title{
+        font-size: 48px; 
+        margin-bottom: 0;   
+    }
+.puzzle-text-two{
+    font-size: 24px;
+    margin-left: 20px;
+}
+}
