@@ -2,55 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/eveningbay.site/favicon.svg" />
+    <link rel="icon" type="image/png" href="/eveningbay.site/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>Concept Arena: Grid Philosophy</title>
     <script type="module" crossorigin src="/eveningbay.site/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/eveningbay.site/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/eveningbay.site/assets/styles-BqDj1Glz.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="home-title">Concept Arena: <span class="home-span">Grid Philosoph</span>y </h1>
+        <p class="home-text">Look, it's not your typical match-three game.<br class="mob"/> This one's actually about ideas.</p>
+        <div class="home-wrapper">
+            <p>Each level focuses on one core concept.</p>
+            <p class="home-text-two">Balance · Symmetry · Contrast · Momentum</p>
+            <p>It's not just about moving shapes around — <br class="mob"/>you're actually trying to figure out what an <br class="desk"/> idea<br class="mob"/> looks like when it's built
+            into a grid.</p>
+            <ul class="home-list">
+                <li class="home-item-one">
+                    <p>Sometimes the solution feels<br/> obvious.</p>
+                </li>
+                <li class="home-desk">
+                    <p>/</p>
+                </li>
+                <li class="home-item">
+                    <p>Sometimes it feels like understanding something deeper.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="home-btn-wrapper">
+            <a class="home-btn-one btn" href="#">
+                <p>Enter the Arena</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAF1JREFUeAHNkrENwCAMBN+ZgBGySjbIRhkhIzASI8Am5i1RUFFgCXjp5ML+L2wDR0tVbwOzojmSPB1CYyDp7BDphqzxDXICeUkhj4hYxYUVcu1hn7kF/N7z+V55iSoqo3p+wx0mNwAAAABJRU5ErkJggg==" alt="Arrow" loading="lazy">
+            </a>
+            <a class="home-btn-two btn" href="#">
+                <p>Explore the Principles</p>
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
