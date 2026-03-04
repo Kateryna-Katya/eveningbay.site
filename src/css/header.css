@@ -6,11 +6,11 @@
   z-index: 999;
   width: 100%;
   height: 73px;
-
+background-color: #fff;
 }
 
 .header-container {
-  padding: 12px 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
