@@ -16,10 +16,71 @@
     <script type="module" crossorigin src="/eveningbay.site/index.js"></script>
     <link rel="modulepreload" crossorigin href="/eveningbay.site/assets/vendor-BSBkFbx1.js">
     <link rel="stylesheet" crossorigin href="/eveningbay.site/assets/vendor-BHcSP5WY.css">
-    <link rel="stylesheet" crossorigin href="/eveningbay.site/assets/styles-rkFx-ckF.css">
+    <link rel="stylesheet" crossorigin href="/eveningbay.site/assets/styles-CKMjaCJI.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAFJJREFUeAHt18EJADAIBEENacH+m7ILi0hIB/o6AntvwQFB0TPzmDJKwOu9TBwAAADIAbtbGBGjhVVV3qljBAAAAADwzy3o7vZpGAEAAABc/Z5fhtEU791bWB0AAAAASUVORK5CYII=" alt="Puzzle" loading="lazy">
+<p>CONCEPT ARENA</p>
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4 5H20M4 12H20M4 19H20" stroke="#151515" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#puzzle">The Concept</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#think">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#arena">Principles</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#minimal">Experience</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#faq">FAQ</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#play">Play</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#puzzle">The Concept</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#think">How It Works</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#arena">Principles</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#minimal">Experience</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#faq">FAQ</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#play">Play</a>
+        </li>
+    </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -45,11 +106,11 @@
             </ul>
         </div>
         <div class="home-btn-wrapper">
-            <a class="home-btn-one btn" href="#">
+            <a class="home-btn-one btn" href="#arena">
                 <p>Enter the Arena</p>
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAF1JREFUeAHNkrENwCAMBN+ZgBGySjbIRhkhIzASI8Am5i1RUFFgCXjp5ML+L2wDR0tVbwOzojmSPB1CYyDp7BDphqzxDXICeUkhj4hYxYUVcu1hn7kF/N7z+V55iSoqo3p+wx0mNwAAAABJRU5ErkJggg==" alt="Arrow" loading="lazy">
             </a>
-            <a class="home-btn-two btn" href="#">
+            <a class="home-btn-two btn" href="#think">
                 <p>Explore the Principles</p>
             </a>
         </div>
@@ -362,7 +423,7 @@
         </ul>
     </div>
 </section>
-<section class="final-section">
+<section class="final-section" id="play">
     <div class="container final-conatiner">
     <div class="arena-dots">
         <span></span>
@@ -377,7 +438,7 @@
         <p class="final-text">The principle is set.</p>
         <p class="final-text-two">The solution is yours to discover.</p>
     </div>
-        <a class="final-btn btn" href="#">
+        <a class="final-btn btn" href="#arena">
                 <p>Enter the Arena</p>
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAJpJREFUeAHNkkEKwyAQRUet+yxd5iq5Qa/SE+RouYpLly4FUTsTaCmU/El2+TAoOP8xX4bo1gohzFKox6LH1trae98QBAJqra8xRkYQQ4omlvd+M8ZM1tolpRQvATTIFyAjSuYjiJg5zpPP+At5fBpKKeScIwDYiyF7798EZyLIlT92yTnH0wBkVgGaWQT3gM0rMqviAWYpurXeSAFS5EksIrwAAAAASUVORK5CYII=" alt="Arrow" loading="lazy">
         </a>
@@ -393,19 +454,22 @@
                     <a class="footer-item-links" href="./#home">Home</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-item-links" href="./#city">Concept</a>
+                    <a class="footer-item-links" href="./#puzzle">The Concept</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-item-links" href="./#connect">Gameplay</a>
+                    <a class="footer-item-links" href="./#think">How It Works</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-item-links" href="./#design">Features</a>
+                    <a class="footer-item-links" href="./#arena">Principles</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-item-links" href="./#when">City Life</a>
+                    <a class="footer-item-links" href="./#minimal">Experience</a>
                 </li>
                 <li class="footer-item">
                     <a class="footer-item-links" href="./#faq">FAQ</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-item-links" href="./#design">Play</a>
                 </li>
             </ul>
         <div class="footer-wrap-two"></div>
