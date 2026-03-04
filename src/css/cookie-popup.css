@@ -1,0 +1,109 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 89px 32px 35px;
+background: #151515;
+border-radius: 30px 30px 0 0;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.popup-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.cookie-class {
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.72222;
+    letter-spacing: -0.08em;
+    color: #fff;
+    width: 300px;
+}
+
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 265px;
+    height: 110px;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border: 1px solid #d4d4d4;
+    padding: 12px 32px;
+    width: 265px;
+    height: 50px;
+    background: #fff;
+    box-sizing: border-box;
+    border: none;
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #151515;
+
+}
+
+.btn-decline {
+border: 1px solid #fff;
+    padding: 12px 32px;
+    width: 265px;
+    height: 50px;
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 83px 62px;
+          height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .cookie-class {
+        font-family: "Space Grotesk", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 1.59375;
+            letter-spacing: -0.05em;
+            color: #fff;
+        width: 890px;
+    }
+
+    .cookie-buttons {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+}
