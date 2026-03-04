@@ -2,7 +2,7 @@
   padding-top: 98px;
   padding-bottom: 20px;
 }
-.footer-wraper{
+.footer-list{
   display: none;
 }
 .footer-wrap-two{
@@ -36,4 +36,25 @@
     text-align: center;
     color: #737373;
     margin-bottom: 16px;
+}
+@media only screen and (min-width: 1440px) {
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .footer-list{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    color: #525252;
+  }
+  .footer-wrap-two{
+    display: flex;
+      background: #e5e5e5;
+        height: 1px;
+   }
+   .footer-link{
+    font-size: 12px;
+   }
 }
